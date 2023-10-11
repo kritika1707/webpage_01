@@ -2,12 +2,10 @@ body {
     margin: 15px 20px 20px 20px;
 }
 .navbar {
-    background-color: white;
     color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 70px;
 }
 
 .navbar ul {
@@ -49,6 +47,7 @@ a {
     right: 190px;
 }
 .grid-container {
+    margin-top: 70px;
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 8px;
