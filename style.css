@@ -116,7 +116,7 @@ font-size: 1.6rem;
 h4, p{
     margin: 0px;
 }
-@media (max-width:768px) {
+@media (max-width:78px) {
     .top-rated-container{
     display: block;
     }    
