@@ -153,11 +153,22 @@ h4, p{
     .hamburger-button {
         height: 50px;
         width: 30px;
-        display: flex;
+        display: inline-block;
+        position: relative;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .dropdown-options {
+        display: none;
+        position: absolute;
+        overflow: auto;
+    }
+      
+    .hamburger-button:hover .dropdown-options {
+        display: block;
+    }
+
 }
 
  
