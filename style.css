@@ -96,7 +96,7 @@ h1 {
 .footer-container {
     margin-top: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     box-shadow: 3px 3px 3px 3px #d3d3d3;
     border-radius: 5px;
 }
@@ -116,8 +116,4 @@ font-size: 1.6rem;
 h4, p{
     margin: 0px;
 }
-@media (max-width:78px) {
-    .top-rated-container{
-    display: block;
-    }    
-}
+
