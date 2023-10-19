@@ -131,15 +131,20 @@ h4, p{
     }
 }
 
-@media only screen and (max-width:768px) {
-    .footer-container {
-        flex-wrap: wrap;
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .footer-container .footer {
+       margin: 0 10px;
+    }
+    .signup {
+        position: relative;
+        right: 10px;
     }
 
 }
+
 @media only screen and (max-width:550px) {
     .footer-container {
-        flex-wrap: wrap;
+        display: block;
     }
 
 }
